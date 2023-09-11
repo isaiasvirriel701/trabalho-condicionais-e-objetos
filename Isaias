@@ -1,0 +1,104 @@
+//Isaias Virriel
+//Exercicio 1
+/* a) o codigo verifica se a pesosa tem idade superior o igual a 18 anos 
+e se possui carteira de motorista*/
+
+/* b) a mensagem sera impressa no console quando a condiçao no 'if' for verdadeira 
+ou seja quando a idade de alice for maior ou igual a 18 e ela tiver carteira de 
+motorista .
+
+a mensagem "alice nao podera dirigir." sera impressa no console quando a condiçao 
+no 'if' for falsa ou seja quando a idade de alice for menor que 18 ou ela nao tiver 
+carteira de motorista */
+
+//Exercicio 2
+/* o objetivo deste codigo e verificar se o animal e carnivoro ou nao e exibir uma 
+mensagem no console com base nessa verificaçao.*/
+
+/*"leao e um animal carnivoro." */
+
+//Exercicio 3
+/* a) o codigo verifica se o numero e maior do que 5 e imprime "o numero e maior do que 5"
+se for verdadeiro caso contrario imprime"o numero e menor ou igual a 5"  
+
+ em seguida,o codigo verifica se o numero e par ou impar e imprime "o numero e par"se for verdadeiro 
+ caso contrario imprime "o numero e impar"*/
+
+/* b) o numero e maior do que 5
+      o numero e par */
+
+//Exercicios escrita de codigo 
+//Exercicio 1
+/*
+const idade = prompt ("qual e a sua idade?");
+const idadeNumero = parseInt(idade) ;
+if (idadeNumero >= 18) {
+    console.log("voce e maior de idade.");
+}else{
+    console.log("voce e menor de idade.");
+} */
+
+//Exercicio 2
+/*
+const turno = prompt("Qual turno você estuda? Digite 'M' para matutino, 'T' para tarde ou 'N' para noturno:");
+if (turno === "M") {
+    console.log("Bom Dia!");
+  } else if (turno === "T") {
+    console.log("Boa Tarde!");
+  } else if (turno === "N") {
+    console.log("Boa Noite!");
+  } else {
+    console.log("Turno não reconhecido. Por favor, digite 'M', 'T' ou 'N'.");
+  } */
+
+//Exercicio 3
+/*
+const turno = prompt("Qual turno você estuda? Digite 'M' para matutino, 'T' para tarde ou 'N' para noturno:");
+switch (turno) {
+    case "M":
+      console.log("Bom Dia!");
+      break;
+    case "T":
+      console.log("Boa Tarde!");
+      break;
+    case "N":
+      console.log("Boa Noite!");
+      break;
+    default:
+      console.log("Turno não reconhecido. Por favor, digite 'M', 'T' ou 'N'.");
+      break;
+  } */
+
+//Exercicio 4
+/*
+const aluno = {
+    nome: "Rafa",
+    idade: 19,
+    tipoDeCurso: "Direito",
+    temBolsa: false
+  };
+  if (aluno.idade < 30 && aluno.tipoDeCurso === "Direito" && !aluno.temBolsa) {
+    console.log("Você pode se candidatar a uma bolsa de estudos!");
+  } else {
+    console.log("Desculpe, você não atende aos requisitos para a bolsa.");
+  } */
+
+//Exercicio 5 
+/*
+const produto = {
+    nome: "tênis",
+    preco: 100,
+    desconto: 20,
+    freteGratis: true
+};
+
+const precoComDesconto = produto.preco * (1 - produto.desconto / 100);
+let mensagem = `Preço final: ${precoComDesconto.toFixed(2)}`;
+if (produto.desconto > 0) {
+    mensagem += ` (Desconto ${produto.desconto}%)`;
+  }
+if (produto.freteGratis) {
+    mensagem += " (Frete Grátis)";
+  }
+  
+  console.log(mensagem); */
